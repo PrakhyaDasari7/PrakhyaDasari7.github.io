@@ -16,15 +16,12 @@ const About = () => {
           className="text-center md:text-left"
         >
           <h2 className="text-4xl font-bold mb-6">About Me</h2>
-          <div className="space-y-4">
-            <p className="text-lg text-gray-300">
-
-            I'm a software developer who loves building smart, user-friendly applications. With over 3 years of experience, I specialize in creating efficient solutions using .NET, React, and cloud platforms like AWS and Azure. I enjoy solving complex problems, improving performance, and making technology easier to use.       
+          <div className="space-y-4 text-lg text-gray-300">
+            <p>
+              I&apos;m a passionate Software Engineer with expertise in full-stack development.
             </p>
-
-            <p className="text-lg text-gray-300">
-
-            I'm passionate about working in fast-paced teams, where I can learn, collaborate, and deliver practical solutions. Recently, I've been exploring and implementing Gen AI technologies, excited by their potential to transform user experiences and streamline processes. Whether it's optimizing systems, fixing critical issues, or leveraging AI for smarter solutions, I'm always eager to tackle new challenges and keep learning.
+            <p>
+              I&apos;m currently pursuing my Master&apos;s in Software Engineering Systems at Northeastern University. Throughout my journey, I&apos;ve had the opportunity to work on diverse projects that have enhanced my technical skills and problem-solving abilities. I&apos;m particularly drawn to creating intuitive user experiences and optimizing system performance.
             </p>
           </div>
         </motion.div>

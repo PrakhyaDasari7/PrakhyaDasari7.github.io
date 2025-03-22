@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, useTexture, Html } from '@react-three/drei';
+import { OrbitControls, Html } from '@react-three/drei';
 import { useState } from 'react';
 import * as THREE from 'three';
 

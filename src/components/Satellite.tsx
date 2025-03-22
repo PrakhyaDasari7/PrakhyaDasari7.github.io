@@ -1,6 +1,8 @@
+"use client";
+
 import { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
-import { Mesh, DoubleSide } from 'three';
+import { Mesh } from 'three';
 
 export const Satellite = () => {
   const satelliteRef = useRef<Mesh>(null);
