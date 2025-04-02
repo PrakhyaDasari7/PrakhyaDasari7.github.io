@@ -54,7 +54,8 @@ const StarField = () => {
 
 const Hero = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden">
+    <div className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden pt-16">
+      {/* Added 'pt-16' for padding-top */}
       <StarField />
       <div className="text-center z-10 px-4 flex-1 flex flex-col items-center justify-center">
         <motion.div
@@ -136,4 +137,4 @@ const Hero = () => {
   )
 }
 
-export default Hero 
+export default Hero
